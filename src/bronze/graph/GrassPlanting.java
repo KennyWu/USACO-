@@ -14,7 +14,7 @@ public class GrassPlanting {
         Scanner r = new Scanner(new File("planting.in"));
         PrintWriter pw = new PrintWriter(new FileWriter("planting.out"));
         int fields = r.nextInt();
-        path = new ArrayList[];
+        path = new ArrayList[fields];
         traversed = new boolean[fields];
         for(int i = 0; i < fields; i++) {
             path[i] = new ArrayList<>();
