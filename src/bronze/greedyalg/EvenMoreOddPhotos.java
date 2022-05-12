@@ -57,7 +57,7 @@ public class EvenMoreOddPhotos {
                     odds -= 2;
                     groups++;
                 }else {
-                    odds -= 1;git stat
+                    odds -= 1;
                     groups++;
                 }
             }else if(odds == 0) {
