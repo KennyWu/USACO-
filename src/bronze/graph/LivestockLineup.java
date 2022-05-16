@@ -22,7 +22,7 @@ public class LivestockLineup {
             nodes.get(s[0]).add(s[1]);
         }
 
-        
+
     }
 
     public static String find(int cow) {
