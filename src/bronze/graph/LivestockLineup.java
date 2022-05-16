@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class LivestockLineup {
 
     public static void main(String[] args) throws Exception {
-        Scanner r = new Scanner(new File("lineup.in"))
+        Scanner r = new Scanner(new File("lineup.in"));
         PrintWriter pw = new PrintWriter(new FileWriter("lineup.out"));
         HashMap<String, ArrayList<String>> nodes = new HashMap<>();
         for (int i = 0; i < 8; i++) {
